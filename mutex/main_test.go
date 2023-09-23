@@ -13,7 +13,7 @@ func Test_Main(t *testing.T) {
 
 	os.Stdout = w
 
-	Main()
+	main()
 
 	_ = w.Close()
 
