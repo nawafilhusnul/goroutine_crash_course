@@ -1,4 +1,4 @@
-package challenge_1
+package main
 
 import (
 	"io"

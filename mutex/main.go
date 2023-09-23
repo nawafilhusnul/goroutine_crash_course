@@ -1,4 +1,4 @@
-package mutex
+package main
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ type Income struct {
 	Amount int
 }
 
-func Main() {
+func main() {
 	//	variable for bank balance
 	var bankBalance int
 	var balance sync.Mutex
